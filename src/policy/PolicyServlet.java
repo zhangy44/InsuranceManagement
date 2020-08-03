@@ -88,7 +88,7 @@ public class PolicyServlet extends HttpServlet{
 		request.getSession().setAttribute("id", id);
 		PolicyBean pb = policyDao.selectPolicy(id);
 		request.getSession().setAttribute("pb", pb);
-		response.sendRedirect("../jsp/editPolicyForm.jsp");
+		response.sendRedirect(request.getContextPath()+"/jsp/editPolicyForm.jsp");
 
 	}
 	private void updatePolicy(HttpServletRequest request, HttpServletResponse response) 

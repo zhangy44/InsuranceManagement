@@ -22,7 +22,7 @@
 <body>
 <h1>Please edit policy <c:out value='${id}' /></h1>
 
-  <form action="<%= request.getContextPath() %>/updatePolicy?id=<%= s.getAttribute("id") %>" method="post">
+  <form action="<%= request.getContextPath() %>/policy/updatePolicy?id=<%= s.getAttribute("id") %>" method="post">
    <table style="with: 80%">
     <tr>
      <td>Type</td>
