@@ -34,9 +34,9 @@
   <link href="https://teamaqua.s3.us-east-2.amazonaws.com/insurancem/assets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- CSS Files -->
   <link href="https://teamaqua.s3.us-east-2.amazonaws.com/insurancem/assets/css/argon-design-system.css?v=1.2.0" rel="stylesheet" />
-<title>Insert title here</title>
+
 </head>
-<body>
+
 <body class="profile-page">
   <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
     <div class="container">
@@ -134,7 +134,26 @@
         </div>
       </div>
     </section>
-   
+   	<footer class="footer">
+			      <div class="container">
+			        
+			        <div class="row align-items-center justify-content-md-between">
+			          <div class="col-md-6">
+			            <div class="copyright">
+			              &copy; 2020 <a href="" target="_blank">Yang Zhang</a>.
+			            </div>
+			          </div>
+			          <div class="col-md-6">
+			            <ul class="nav nav-footer justify-content-end">
+			              <li class="nav-item">
+			                <a href="" class="nav-link" target="_blank">MIT Licence</a>
+			              </li>
+			              
+			            </ul>
+			          </div>
+			        </div>
+			      </div>
+			    </footer>
   </div>
   <!--   Core JS Files   -->
   <script src="https://teamaqua.s3.us-east-2.amazonaws.com/insurancem/assets/js/core/jquery.min.js" type="text/javascript"></script>
